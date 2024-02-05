@@ -36,6 +36,16 @@ function make_avg(numbers){
 
 
 }
-const num =[66,77,88,5,4,6,4]
-const avgMark =make_avg(num);
-console.log("Average Mark:",avgMark.toFixed(2))
+// const num =[66,77,88,5,4,6,4]
+// const avgMark =make_avg(num);
+// console.log("Average Mark:",avgMark.toFixed(2))
+// ------------Task-4-----------------
+function count_zero(binary_string){
+  const zero_count = binary_string.split('0').length;
+  return zero_count
+}
+const binary_str ="101010100010001"
+ const result = count_zero(binary_str);
+console.log(result);
+
+
