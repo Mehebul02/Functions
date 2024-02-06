@@ -49,3 +49,7 @@ const binary_str ="101010100010001"
 console.log(result);
 
 
+function myDetail(name, age , address){
+  console.log(`My name is ${name}. my age ${age}. My address ${address}`)
+}
+myDetail("Alif",18,"Kazihata")
